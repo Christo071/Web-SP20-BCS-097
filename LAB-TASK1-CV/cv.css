@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+/* start  */
+
+#Start
+{
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(/River-Landscape-canvas-oil-Adriaen-van-de-1663.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+}
+
+#nav_bar{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    color: white;
+}
+
+#nav_bar li{
+    float:left;
+    font-size:  30px;
+    position: relative;
+}
+
+#nav_bar li ul{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar li ul li{
+   font-size: smaller;
+}
+
+#nav_bar li ul li a{
+    color:chocolate; 
+ }
+
+#nav_bar li:hover ul{
+    display: block;
+}
+
+
+#nav_bar li a{
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#nav_bar a:hover{
+    color:black;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+#Intro{
+    margin-top: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.brief_intro{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.about_icon{ 
+    margin-left: 340px;
+    margin-top: 50px;
+}
+
+/* about  */
+
+.flex-container{
+    display: flex;  
+    overflow: hidden;
+    background-color: black;
+    flex-direction: row;
+    height:100vh; 
+    padding:12vh 0;
+}
+
+#Profile_image
+{
+    margin-top: 100px;
+transform: rotate(-90deg);
+  width:450px;
+}
+
+.stwoheadings
+{
+    margin-top: 50px;
+color:yellowgreen;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s2content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:chartreuse;
+}
+
+.twoflex{
+ display:flex;
+ height: 500px; 
+ background-color:crimson;
+ justify-content: space-around;
+ align-items: center;
+ height:100vh;
+}
+
+*{box-sizing: border-box;}
+
+.Container{
+height: 45px;
+width:500px;
+background-color:gray; 
+}
+
+.s3p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 5px;
+padding-bottom:5px;
+font-size: large;
+}
+
+.html{
+    width: 73%;
+    height: 100%;
+    background-color:black;
+}
+
+.css{
+    width: 68%;
+    height: 100%;
+    background-color:black;
+}
+
+.js{
+    width: 71%;
+    height: 100%;
+    background-color:black;
+}
+
+.php{
+    width: 64%;
+    height: 100%;
+    background-color:black;
+}
+
+.s3{
+    height: 500px;
+    width:auto;
+    padding: 15px;
+}
+
+.s3left{
+    width: 400px;
+}
+#sleftxt{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    border-bottom: 5px solid blue;
+}
+
+
+#Contact
+{
+    text-align: center;
+    height:210px;
+    background-color: darkblue;
+    margin-top: -35px; 
+}
+
+#Contact > h3{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color:darkmagenta;
+}
+
+#Contact >p{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:crimson;
+}
+
+#Contact >a>img{
+    margin: 7px;
+    width:50px;
+}
+
